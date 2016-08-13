@@ -418,6 +418,11 @@ int main(int argc, char **argv) {
 
 ![图片描述][1]
 
+下面是两个节点启动后, EPMD的注册名称
+
+![图片描述][2]
+
+
 > 启动服务器(短名称)
 
 ```
@@ -455,4 +460,6 @@ ok
 git clone https://github.com/developerworks/c_node.git
 ```
 
+
   [1]: https://segmentfault.com/img/bVAqti
+  [2]: https://segmentfault.com/img/bVAq3i
