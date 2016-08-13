@@ -1,0 +1,14 @@
+{application, c_node,
+ [{description, "An OTP library"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, [c_node_short, c_node_long]},
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.
