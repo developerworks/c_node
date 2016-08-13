@@ -438,7 +438,6 @@ erlc *.erl
 # 启动节点并调用C节点的函数
 
 ➜  src erl -sname e1 -setcookie secretcookie
-Erlang/OTP 18 [erts-7.3] [source] [64-bit] [smp:8:8] [ds:8:8:10] [async-threads:10] [hipe] [kernel-poll:false] [dtrace]
 
 Eshell V7.3  (abort with ^G)
 (e1@localhost)1> c_node_short:bar(4).
